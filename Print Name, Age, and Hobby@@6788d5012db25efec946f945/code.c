@@ -2,8 +2,8 @@
 
 int main(){
     char[30] name;
-    char[50] hobby;
     int age;
+    char[50] hobby;
     scanf("%29s %d %49s", name, &age, hobby);
     printf("Name: %s", name);
     printf("Age: %d", age);
