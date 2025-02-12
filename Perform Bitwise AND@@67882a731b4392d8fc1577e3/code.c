@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 int main(){
-    int x, y;
-    scanf("%d", &x, &y);
-    int and = x &  y;
+    int a, b;
+    scanf("%d", &a, &b);
+    int and = a &  b;
     printf("%d", and);
     return 0;
 }
