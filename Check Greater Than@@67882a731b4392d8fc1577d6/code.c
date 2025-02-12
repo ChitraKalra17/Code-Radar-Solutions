@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main(){
-    int num1;
-    int num2;
+    int x;
+    int y;
     printf("%d", x > y);
     return 0;   
 }
