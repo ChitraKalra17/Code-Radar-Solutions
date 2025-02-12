@@ -4,7 +4,7 @@
 int main(){
     int x, y;
     scanf("%d", &x, &y);
-    int and = x & y;
+    int and = x &&  y;
     printf("%d", and);
     return 0;
 }
