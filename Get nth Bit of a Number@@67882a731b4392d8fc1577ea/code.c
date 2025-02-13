@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 int main(){
-    int num = x;
-    int pos = y;
+    int num;
+    int pos;
     scanf("%d %d", &num, &pos);
     int bit = (num >> pos) & 1;
     printf("%d\n", bit);
