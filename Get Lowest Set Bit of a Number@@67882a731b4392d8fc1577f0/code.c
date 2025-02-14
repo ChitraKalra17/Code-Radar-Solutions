@@ -6,7 +6,7 @@ int main(){
     scanf("%d", &x);
     int lowest = x & -x;
     int position = 1;
-    while ((lowest >> = 1) > 0) {
+    while ((lowest >>= 1) > 0) {
         position ++;
     }
     printf("%d", position);
