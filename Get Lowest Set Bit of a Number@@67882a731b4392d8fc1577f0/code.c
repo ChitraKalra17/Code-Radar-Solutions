@@ -5,6 +5,10 @@ int main(){
     int x;
     scanf("%d", &x);
     int lowest = x & -x;
-    printf("%d", lowest);
+    int position = 1;
+    while ((lowest >> = 1) > 0) {
+        position ++;
+    }
+    printf("%d", position);
     return 0;
 }
